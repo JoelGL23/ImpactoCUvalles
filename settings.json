@@ -1,0 +1,799 @@
+{
+  "auth": {
+    "audience": "urn:wiki.js",
+    "tokenRenewal": "14d",
+    "tokenExpiration": "30m",
+    "autoLogin": false,
+    "enforce2FA": false,
+    "hideLocal": false,
+    "loginBgUrl": ""
+  },
+  "certs": {
+    "jwk": {
+      "e": "AQAB",
+      "n": "uuIx-tBbxKXN-cvDP-VdoRjQJD5Fq3OHMu_N5R2emPe7bi7op10kEg-f2ilFoGf2DxAHdLc9wq-zhZjFEH5Wu8L_7bzzrKh1EtCUhl57Sw_C2RBwR_rVx4-1v1vmslAvdIdlDrkx3NOk6vIpbVJItl3MsfBxzxiFQX3EhW3xgxIH42asHLcTAQSQu--kTOFeNS2y6x_zvC62NVQL2hRMD4xR1KQwSevE169TKvyYJ34yIXRDHoEkbtFRzJbldR7vjUabjzjbgd6mUxyaERmCQtwOQe7_xwNmJkC_fdpAnwUNJFRrFzFkEXLmJX5yEg3dpR6Nbftr2pwnAAiotGoD3w",
+      "kty": "RSA"
+    },
+    "public": "-----BEGIN RSA PUBLIC KEY-----\nMIIBCgKCAQEAuuIx+tBbxKXN+cvDP+VdoRjQJD5Fq3OHMu/N5R2emPe7bi7op10k\nEg+f2ilFoGf2DxAHdLc9wq+zhZjFEH5Wu8L/7bzzrKh1EtCUhl57Sw/C2RBwR/rV\nx4+1v1vmslAvdIdlDrkx3NOk6vIpbVJItl3MsfBxzxiFQX3EhW3xgxIH42asHLcT\nAQSQu++kTOFeNS2y6x/zvC62NVQL2hRMD4xR1KQwSevE169TKvyYJ34yIXRDHoEk\nbtFRzJbldR7vjUabjzjbgd6mUxyaERmCQtwOQe7/xwNmJkC/fdpAnwUNJFRrFzFk\nEXLmJX5yEg3dpR6Nbftr2pwnAAiotGoD3wIDAQAB\n-----END RSA PUBLIC KEY-----\n",
+    "private": "-----BEGIN RSA PRIVATE KEY-----\nProc-Type: 4,ENCRYPTED\nDEK-Info: AES-256-CBC,ED621D2FA378356CA61BE8A7D1BF4365\n\nMPMF4GxCGZTamIKdH1wHZrnCMcehVlwPymjTnkNa4rUd1VF4kpMx7wYF8YSawhbG\neh2VyxeT3pQRi4Wvh63AqkrYpOuadXCQX68Ez72VY/V7yXFQk0RfT4js2MFyIzYi\nKuVGiFFvYIHIucbKFN/Sig38O12VyZ72sVN80KKQ/Ig0PhzhiL10oNcmkw4FspW5\n6EdNMdiQb5Otuj+MnUMor2K+vb9rAqncB/PwJyHMuGM14lrOGRoxzSGqdflYrdt0\nGt7o2gfeAvRnzVG+ATcgvntbi7WZJ60qEat+SmBqFP5vFjuDC301uC1Qb0/qXL6M\nYX9XFCrOZcom99iWzQ8URiArzVGvof5v0+l0swMb8RhKpIQFiyuoxZTs9GKA24GZ\nILUjJAksoJGK9Dje7MmJIrVB20IH1PPNPj2edYB4Pp3GpYfuP1B9xSHVv6LDeOiB\njCsMZrNlE7HSaHRmZGA7BRxlVWkwMqZw6goA6BKdIPslWIRt4ZQQWDDuQXjLfjCV\nzGykEHugxl9V7BwG2RmN1ESmdpxMo40JeblKmzVdQG5Wk28KSNi+zCfOAc/++inD\n5/DgVEKCSmV4DTtqIuAC3hR4Vg3crRMUAohFiHL9mm4byX33Jq1qr4ghlCOV5JTc\nrBzt/dEkRZfnAn+8GZiauHzxnXuNZ7pJIXJ1miIQqKpgMqtmJquXlZEbQUTweo2A\nJZikqfUyoEcnSNh7zHyV4gxjLUUrV7zW4+qNecbDj8S2TDQaxyoSctjXCck3r0fS\njU6HN2kneeILyykNYziEZbZDDTzezqmec9Zemo/T5JDoZENQGoujb70/srOrXgUC\noV9JwcMWcf02CKRjTYDMnJUnUKeTkicAlcP86t8q9RccaQfvMBVzUwCZLPuKa5Cq\nMurb1ORyCmqtx9mVtWGSe7C6k3fLzKW3nA5xnOQluSKN1e8MqlUeSch/l+yPlTi5\nShX+nBKcrm40emdLGxNPpQ/UUnL4BBW32m1R3Jx5G5tKEChATXmRlWMVzESEbnXV\nHQsU6muP64vP3vEDqu/IpMP+M03tX4iYa7uAa9hMe19cSxb+jknbJxNfL/3oumid\ncBgjoS9eIqid84XKPrhlQXSY75nPBkJ0migIHZ/JnrETsGRUvh0yHNyHsrCFS+Yl\nfhVYjTZX0OR1KJ0AiiBXzZbHAzVzdVHdmX71spnhC4E7GvesKsiehxgu9Bp78G94\nPkE7BQGC6bPhaM7iwHOgG9k0n0q2sGA/LoePdZLYnt38jqg/MvloaM34yDSVSGje\nj4oEWoS0m9EdYNMSIZXnb++96wmohnliyFDrsyi67QtewQ/dddUdpK9mNDvbbVdJ\nyvUILmgDtsJwQhvnTzBabN2NIsHi8G4ilsukIiMMnAwEXAopJSS5aoOGAR4ulRNR\nsEDgCF4X7X5WpicxHWOhL4ptY9hSYa26KKcTB/aaka+UsDe4gB4tBatGWKR//J9l\nYo/36wdeLLXuWtfSHM7Cf/+vfNDNEj91LKF49SSM1x2HWS5oApKRKUfwtT9LRW8b\nX4k7BIeK2gwcuO3XV9d4/LLJssjNrbtt/WgFGlJTkZyCewKpiKexnWbgJMuanEqP\n-----END RSA PRIVATE KEY-----\n"
+  },
+  "company": "",
+  "contentLicense": "",
+  "editShortcuts": {
+    "editFab": true,
+    "editMenuBar": false,
+    "editMenuBtn": true,
+    "editMenuExternalBtn": true,
+    "editMenuExternalUrl": "https://github.com/org/repo/blob/main/{filename}",
+    "editMenuExternalIcon": "mdi-github",
+    "editMenuExternalName": "GitHub"
+  },
+  "features": {
+    "featurePageRatings": true,
+    "featurePageComments": true,
+    "featurePersonalWikis": true
+  },
+  "footerOverride": "",
+  "graphEndpoint": "https://graph.requarks.io",
+  "host": "https://wiki.testingWiki.com",
+  "lang": {
+    "code": "en",
+    "autoUpdate": true,
+    "namespaces": [],
+    "namespacing": false,
+    "rtl": false
+  },
+  "logo": {
+    "hasLogo": false,
+    "logoIsSquare": false
+  },
+  "logoUrl": "https://static.requarks.io/logo/wikijs-butterfly.svg",
+  "mail": {
+    "host": "",
+    "name": "",
+    "pass": "",
+    "port": 465,
+    "user": "",
+    "secure": true,
+    "useDKIM": false,
+    "verifySSL": true,
+    "senderName": "",
+    "senderEmail": "",
+    "dkimDomainName": "",
+    "dkimPrivateKey": "",
+    "dkimKeySelector": ""
+  },
+  "pageExtensions": [
+    "md",
+    "html",
+    "txt"
+  ],
+  "security": {
+    "securityCSP": false,
+    "securitySRI": true,
+    "securityHSTS": false,
+    "securityIframe": true,
+    "securityTrustProxy": false,
+    "securityHSTSDuration": 300,
+    "securityOpenRedirect": true,
+    "securityCSPDirectives": "",
+    "securityReferrerPolicy": true
+  },
+  "seo": {
+    "robots": [
+      "index",
+      "follow"
+    ],
+    "analyticsId": "",
+    "description": "",
+    "analyticsService": ""
+  },
+  "sessionSecret": "dc46455380737f62e21b8b868726f7a02eb3ef53b086131a86c50f1a12cf683d",
+  "telemetry": {
+    "clientId": "9364994a-520b-44d8-9acc-5f38bab7b718",
+    "isEnabled": false
+  },
+  "theming": {
+    "theme": "default",
+    "iconset": "mdi",
+    "darkMode": false,
+    "injectCSS": "",
+    "injectBody": "",
+    "injectHead": "",
+    "tocPosition": "left"
+  },
+  "title": "Wiki.js",
+  "uploads": {
+    "scanSVG": true,
+    "maxFiles": 10,
+    "maxFileSize": 5242880,
+    "forceDownload": true
+  },
+  "port": 3000,
+  "db": {
+    "type": "mysql",
+    "host": "localhost",
+    "port": 3306,
+    "user": "wikijs",
+    "pass": "wikijsrocks",
+    "db": "wiki",
+    "ssl": false,
+    "sslOptions": {
+      "auto": true
+    },
+    "schema": "public",
+    "storage": "path/to/database.sqlite"
+  },
+  "ssl": {
+    "enabled": false,
+    "port": 3443,
+    "provider": "custom",
+    "format": "pem",
+    "key": "path/to/key.pem",
+    "cert": "path/to/cert.pem",
+    "pfx": "path/to/cert.pfx",
+    "passphrase": null,
+    "dhparam": null,
+    "domain": "wiki.yourdomain.com",
+    "subscriberEmail": "admin@example.com"
+  },
+  "pool": null,
+  "bindIP": "0.0.0.0",
+  "logLevel": "info",
+  "logFormat": "default",
+  "offline": false,
+  "ha": false,
+  "dataPath": "./data",
+  "bodyParserLimit": "5mb",
+  "api": {
+    "isEnabled": false
+  },
+  "nav": {
+    "mode": "MIXED"
+  },
+  "server": {
+    "sslRedir": false
+  },
+  "flags": {
+    "ldapdebug": false,
+    "sqllog": false
+  },
+  "channel": "STABLE",
+  "setup": false,
+  "cors": {
+    "credentials": true,
+    "maxAge": 600,
+    "methods": "GET,POST",
+    "origin": true
+  },
+  "search": {
+    "maxHits": 100
+  },
+  "maintainerEmail": "security@requarks.io",
+  "modules": {
+    "analytics": [
+      {
+        "key": "azureinsights",
+        "isEnabled": false,
+        "config": {
+          "instrumentationKey": ""
+        }
+      },
+      {
+        "key": "baidutongji",
+        "isEnabled": false,
+        "config": {
+          "propertyTrackingId": ""
+        }
+      },
+      {
+        "key": "countly",
+        "isEnabled": false,
+        "config": {
+          "appKey": "",
+          "serverUrl": ""
+        }
+      },
+      {
+        "key": "elasticapm",
+        "isEnabled": false,
+        "config": {
+          "serverUrl": "http://apm.example.com:8200",
+          "environment": "",
+          "serviceName": "wiki-js"
+        }
+      },
+      {
+        "key": "fathom",
+        "isEnabled": false,
+        "config": {
+          "host": "",
+          "siteId": ""
+        }
+      },
+      {
+        "key": "fullstory",
+        "isEnabled": false,
+        "config": {
+          "org": ""
+        }
+      },
+      {
+        "key": "google",
+        "isEnabled": false,
+        "config": {
+          "propertyTrackingId": ""
+        }
+      },
+      {
+        "key": "gtm",
+        "isEnabled": false,
+        "config": {
+          "containerTrackingId": ""
+        }
+      },
+      {
+        "key": "hotjar",
+        "isEnabled": false,
+        "config": {
+          "siteId": ""
+        }
+      },
+      {
+        "key": "matomo",
+        "isEnabled": false,
+        "config": {
+          "siteId": 1,
+          "serverHost": "https://example.matomo.cloud"
+        }
+      },
+      {
+        "key": "newrelic",
+        "isEnabled": false,
+        "config": {
+          "appId": "",
+          "beacon": "bam.nr-data.net",
+          "licenseKey": "",
+          "errorBeacon": "bam.nr-data.net"
+        }
+      },
+      {
+        "key": "plausible",
+        "isEnabled": false,
+        "config": {
+          "domain": "",
+          "plausibleJsSrc": "https://plausible.io/js/plausible.js"
+        }
+      },
+      {
+        "key": "statcounter",
+        "isEnabled": false,
+        "config": {
+          "projectId": "",
+          "securityToken": ""
+        }
+      },
+      {
+        "key": "umami",
+        "isEnabled": false,
+        "config": {
+          "url": "",
+          "websiteID": ""
+        }
+      },
+      {
+        "key": "umami2",
+        "isEnabled": false,
+        "config": {
+          "url": "",
+          "websiteID": ""
+        }
+      },
+      {
+        "key": "yandex",
+        "isEnabled": false,
+        "config": {
+          "tagNumber": ""
+        }
+      }
+    ],
+    "authentication": [
+      {
+        "key": "local",
+        "isEnabled": true,
+        "config": {},
+        "selfRegistration": false,
+        "domainWhitelist": [],
+        "autoEnrollGroups": [],
+        "order": 0,
+        "strategyKey": "local",
+        "displayName": "Local"
+      }
+    ],
+    "commentProviders": [
+      {
+        "key": "artalk",
+        "isEnabled": false,
+        "config": {
+          "server": "",
+          "siteName": ""
+        }
+      },
+      {
+        "key": "commento",
+        "isEnabled": false,
+        "config": {
+          "instanceUrl": "https://cdn.commento.io"
+        }
+      },
+      {
+        "key": "default",
+        "isEnabled": true,
+        "config": {
+          "akismet": "",
+          "minDelay": 30
+        }
+      },
+      {
+        "key": "disqus",
+        "isEnabled": false,
+        "config": {
+          "accountName": ""
+        }
+      }
+    ],
+    "renderers": [
+      {
+        "key": "asciidocCore",
+        "isEnabled": true,
+        "config": {
+          "safeMode": "server"
+        }
+      },
+      {
+        "key": "htmlAsciinema",
+        "isEnabled": false,
+        "config": {}
+      },
+      {
+        "key": "htmlBlockquotes",
+        "isEnabled": true,
+        "config": {}
+      },
+      {
+        "key": "htmlCodehighlighter",
+        "isEnabled": true,
+        "config": {}
+      },
+      {
+        "key": "htmlCore",
+        "isEnabled": true,
+        "config": {
+          "absoluteLinks": false,
+          "openExternalLinkNewTab": false,
+          "relAttributeExternalLink": "noreferrer"
+        }
+      },
+      {
+        "key": "htmlDiagram",
+        "isEnabled": true,
+        "config": {}
+      },
+      {
+        "key": "htmlImagePrefetch",
+        "isEnabled": false,
+        "config": {}
+      },
+      {
+        "key": "htmlMediaplayers",
+        "isEnabled": true,
+        "config": {}
+      },
+      {
+        "key": "htmlMermaid",
+        "isEnabled": true,
+        "config": {}
+      },
+      {
+        "key": "htmlSecurity",
+        "isEnabled": true,
+        "config": {
+          "safeHTML": true,
+          "allowIFrames": false,
+          "allowDrawIoUnsafe": true
+        }
+      },
+      {
+        "key": "htmlTabset",
+        "isEnabled": true,
+        "config": {}
+      },
+      {
+        "key": "htmlTwemoji",
+        "isEnabled": true,
+        "config": {}
+      },
+      {
+        "key": "markdownAbbr",
+        "isEnabled": true,
+        "config": {}
+      },
+      {
+        "key": "markdownCore",
+        "isEnabled": true,
+        "config": {
+          "quotes": "English",
+          "linkify": true,
+          "allowHTML": true,
+          "underline": false,
+          "linebreaks": true,
+          "typographer": false
+        }
+      },
+      {
+        "key": "markdownEmoji",
+        "isEnabled": true,
+        "config": {}
+      },
+      {
+        "key": "markdownExpandtabs",
+        "isEnabled": true,
+        "config": {
+          "tabWidth": 4
+        }
+      },
+      {
+        "key": "markdownFootnotes",
+        "isEnabled": true,
+        "config": {}
+      },
+      {
+        "key": "markdownImsize",
+        "isEnabled": true,
+        "config": {}
+      },
+      {
+        "key": "markdownKatex",
+        "isEnabled": true,
+        "config": {
+          "useBlocks": true,
+          "useInline": true
+        }
+      },
+      {
+        "key": "markdownKroki",
+        "isEnabled": false,
+        "config": {
+          "server": "https://kroki.io",
+          "openMarker": "```kroki",
+          "closeMarker": "```"
+        }
+      },
+      {
+        "key": "markdownMathjax",
+        "isEnabled": false,
+        "config": {
+          "useBlocks": true,
+          "useInline": true
+        }
+      },
+      {
+        "key": "markdownMultiTable",
+        "isEnabled": false,
+        "config": {
+          "rowspanEnabled": true,
+          "multilineEnabled": true,
+          "headerlessEnabled": true
+        }
+      },
+      {
+        "key": "markdownPivotTable",
+        "isEnabled": false,
+        "config": {}
+      },
+      {
+        "key": "markdownPlantuml",
+        "isEnabled": true,
+        "config": {
+          "server": "https://plantuml.requarks.io",
+          "openMarker": "```plantuml",
+          "closeMarker": "```",
+          "imageFormat": "svg"
+        }
+      },
+      {
+        "key": "markdownSupsub",
+        "isEnabled": true,
+        "config": {
+          "subEnabled": true,
+          "supEnabled": true
+        }
+      },
+      {
+        "key": "markdownTasklists",
+        "isEnabled": true,
+        "config": {}
+      },
+      {
+        "key": "openapiCore",
+        "isEnabled": true,
+        "config": {}
+      }
+    ],
+    "searchEngines": [
+      {
+        "key": "algolia",
+        "isEnabled": false,
+        "config": {
+          "appId": "",
+          "apiKey": "",
+          "indexName": "wiki"
+        }
+      },
+      {
+        "key": "aws",
+        "isEnabled": false,
+        "config": {
+          "domain": "",
+          "region": "us-east-1",
+          "endpoint": "",
+          "accessKeyId": "",
+          "secretAccessKey": "",
+          "AnalysisSchemeLang": "en"
+        }
+      },
+      {
+        "key": "azure",
+        "isEnabled": false,
+        "config": {
+          "adminKey": "",
+          "indexName": "wiki",
+          "serviceName": ""
+        }
+      },
+      {
+        "key": "db",
+        "isEnabled": true,
+        "config": {}
+      },
+      {
+        "key": "elasticsearch",
+        "isEnabled": false,
+        "config": {
+          "hosts": "",
+          "analyzer": "simple",
+          "indexName": "wiki",
+          "apiVersion": "6.x",
+          "tlsCertPath": "",
+          "sniffOnStart": false,
+          "sniffInterval": 0,
+          "verifyTLSCertificate": true
+        }
+      },
+      {
+        "key": "manticore",
+        "isEnabled": false,
+        "config": {}
+      },
+      {
+        "key": "postgres",
+        "isEnabled": false,
+        "config": {
+          "dictLanguage": "english"
+        }
+      },
+      {
+        "key": "solr",
+        "isEnabled": false,
+        "config": {
+          "core": "wiki",
+          "host": "solr",
+          "port": 8983,
+          "protocol": "http"
+        }
+      },
+      {
+        "key": "sphinx",
+        "isEnabled": false,
+        "config": {}
+      }
+    ],
+    "storage": [
+      {
+        "key": "azure",
+        "isEnabled": false,
+        "mode": "push",
+        "config": {
+          "accountKey": "",
+          "accountName": "",
+          "storageTier": "Cool",
+          "containerName": "wiki"
+        },
+        "syncInterval": "P0D",
+        "state": {
+          "status": "pending",
+          "message": "Initializing...",
+          "lastAttempt": null
+        }
+      },
+      {
+        "key": "box",
+        "isEnabled": false,
+        "mode": "push",
+        "config": {
+          "clientId": "",
+          "rootFolder": "",
+          "clientSecret": ""
+        },
+        "syncInterval": "P0D",
+        "state": {
+          "status": "pending",
+          "message": "Initializing...",
+          "lastAttempt": null
+        }
+      },
+      {
+        "key": "digitalocean",
+        "isEnabled": false,
+        "mode": "push",
+        "config": {
+          "bucket": "",
+          "endpoint": "nyc3.digitaloceanspaces.com",
+          "accessKeyId": "",
+          "secretAccessKey": ""
+        },
+        "syncInterval": "P0D",
+        "state": {
+          "status": "pending",
+          "message": "Initializing...",
+          "lastAttempt": null
+        }
+      },
+      {
+        "key": "disk",
+        "isEnabled": false,
+        "mode": "push",
+        "config": {
+          "path": "",
+          "createDailyBackups": false
+        },
+        "syncInterval": "P0D",
+        "state": {
+          "status": "pending",
+          "message": "Initializing...",
+          "lastAttempt": null
+        }
+      },
+      {
+        "key": "dropbox",
+        "isEnabled": false,
+        "mode": "push",
+        "config": {
+          "appKey": "",
+          "appSecret": ""
+        },
+        "syncInterval": "P0D",
+        "state": {
+          "status": "pending",
+          "message": "Initializing...",
+          "lastAttempt": null
+        }
+      },
+      {
+        "key": "gdrive",
+        "isEnabled": false,
+        "mode": "push",
+        "config": {
+          "clientId": "",
+          "clientSecret": ""
+        },
+        "syncInterval": "P0D",
+        "state": {
+          "status": "pending",
+          "message": "Initializing...",
+          "lastAttempt": null
+        }
+      },
+      {
+        "key": "git",
+        "isEnabled": true,
+        "mode": "push",
+        "config": {
+          "branch": "master",
+          "repoUrl": "git@github.com:JoelGL23/ImpactoCUvalles.git",
+          "authType": "ssh",
+          "verifySSL": true,
+          "defaultName": "John Smith",
+          "defaultEmail": "name@company.com",
+          "basicPassword": "89n3knl767l6",
+          "basicUsername": "joelgl23",
+          "gitBinaryPath": "",
+          "localRepoPath": "./data/repo",
+          "sshPrivateKeyMode": "path",
+          "sshPrivateKeyPath": "git@github.com:JoelGL23/ImpactoCUvalles.git",
+          "sshPrivateKeyContent": ""
+        },
+        "syncInterval": "PT1M",
+        "state": {
+          "status": "error",
+          "message": "Error: spawn git ENOENT\n    at Process.ChildProcess._handle.onexit (internal/child_process.js:268:19)\n    at onErrorNT (internal/child_process.js:470:16)\n    at processTicksAndRejections (internal/process/task_queues.js:84:21)",
+          "lastAttempt": "2024-08-19T20:18:58.336Z"
+        }
+      },
+      {
+        "key": "onedrive",
+        "isEnabled": false,
+        "mode": "push",
+        "config": {
+          "clientId": "",
+          "clientSecret": ""
+        },
+        "syncInterval": "P0D",
+        "state": {
+          "status": "pending",
+          "message": "Initializing...",
+          "lastAttempt": null
+        }
+      },
+      {
+        "key": "s3",
+        "isEnabled": false,
+        "mode": "push",
+        "config": {
+          "bucket": "",
+          "region": "",
+          "accessKeyId": "",
+          "secretAccessKey": ""
+        },
+        "syncInterval": "P0D",
+        "state": {
+          "status": "pending",
+          "message": "Initializing...",
+          "lastAttempt": null
+        }
+      },
+      {
+        "key": "s3generic",
+        "isEnabled": false,
+        "mode": "push",
+        "config": {
+          "bucket": "",
+          "endpoint": "https://service.region.example.com",
+          "sslEnabled": true,
+          "accessKeyId": "",
+          "secretAccessKey": "",
+          "s3BucketEndpoint": false,
+          "s3ForcePathStyle": false
+        },
+        "syncInterval": "P0D",
+        "state": {
+          "status": "pending",
+          "message": "Initializing...",
+          "lastAttempt": null
+        }
+      },
+      {
+        "key": "sftp",
+        "isEnabled": false,
+        "mode": "push",
+        "config": {
+          "host": "",
+          "port": 22,
+          "authMode": "privateKey",
+          "basePath": "/root/wiki",
+          "password": "",
+          "username": "",
+          "passphrase": "",
+          "privateKey": ""
+        },
+        "syncInterval": "P0D",
+        "state": {
+          "status": "pending",
+          "message": "Initializing...",
+          "lastAttempt": null
+        }
+      }
+    ]
+  },
+  "apiKeys": []
+}

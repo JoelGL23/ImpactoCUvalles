@@ -1,0 +1,19 @@
+{
+  "site": [
+    {
+      "items": [
+        {
+          "id": "5d95c391-a720-4559-9c45-ce2b1a790fd3",
+          "icon": "mdi-home",
+          "kind": "link",
+          "label": "Home",
+          "target": "/",
+          "targetType": "home",
+          "visibilityMode": "all",
+          "visibilityGroups": null
+        }
+      ],
+      "locale": "en"
+    }
+  ]
+}
